@@ -3,13 +3,13 @@ cmake_minimum_required(VERSION 3.10)
 project(leetcode-cpp)
 
 # Set C++ version
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Add your source files here
 set(SOURCES
-    src/climbing_stairs.cpp
-    include/climbing_stairs.h
+        src/easy/climbing_stairs.cpp
+        include/answer_easy.h
 )
 
 # Add executable target
@@ -21,8 +21,8 @@ target_include_directories(leetcode-cpp PUBLIC include)
 ##################### Test #####################
 
 # Add test files
-set(TEST_SOURCES 
-    tests/climbing_stairs_tests.cpp
+set(TEST_SOURCES
+        tests/easy/climbing_stairs_tests.cpp
 )
 
 Include(FetchContent)
