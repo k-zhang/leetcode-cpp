@@ -8,10 +8,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Add your source files here
 set(SOURCES
+        src/common/common.cpp
+        src/common/utils.cpp
         src/easy/climbing_stairs.cpp
         src/easy/armstrong_number.cpp
         src/easy/fibonacci_number.cpp
-        include/answer_easy.h
 )
 
 # Add executable target
