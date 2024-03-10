@@ -9,6 +9,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 # Add your source files here
 set(SOURCES
         src/easy/climbing_stairs.cpp
+        src/easy/armstrong_number.cpp
         include/answer_easy.h
 )
 
@@ -22,7 +23,8 @@ target_include_directories(leetcode-cpp PUBLIC include)
 
 # Add test files
 set(TEST_SOURCES
-        tests/easy/climbing_stairs_tests.cpp
+        test/easy/climbing_stairs_test.cpp
+        test/easy/armstrong_number_test.cpp
 )
 
 Include(FetchContent)
