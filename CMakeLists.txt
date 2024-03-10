@@ -10,6 +10,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(SOURCES
         src/easy/climbing_stairs.cpp
         src/easy/armstrong_number.cpp
+        src/easy/fibonacci_number.cpp
         include/answer_easy.h
 )
 
@@ -25,6 +26,7 @@ target_include_directories(leetcode-cpp PUBLIC include)
 set(TEST_SOURCES
         test/easy/climbing_stairs_test.cpp
         test/easy/armstrong_number_test.cpp
+        test/easy/fibonacci_number_test.cpp
 )
 
 Include(FetchContent)
