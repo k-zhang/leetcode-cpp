@@ -13,6 +13,7 @@ set(SOURCES
         src/easy/climbing_stairs.cpp
         src/easy/armstrong_number.cpp
         src/easy/fibonacci_number.cpp
+        src/easy/palindrome_number.cpp
         src/easy/same_tree.cpp
 )
 
@@ -29,6 +30,7 @@ set(TEST_SOURCES
         test/easy/climbing_stairs_test.cpp
         test/easy/armstrong_number_test.cpp
         test/easy/fibonacci_number_test.cpp
+        test/easy/palindrome_number_test.cpp
         test/easy/same_tree_test.cpp
 )
 

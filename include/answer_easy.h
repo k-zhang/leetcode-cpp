@@ -8,5 +8,6 @@ bool isArmstrong(int n);
 bool isArmstrongCStyle(int n);
 int fibonacciNumber(int n);
 bool isSameTree(TreeNode *p, TreeNode *q);
+bool isPalindrome(int x);
 
 #endif //LEETCODE_CPP_ANSWER_EASY_H
