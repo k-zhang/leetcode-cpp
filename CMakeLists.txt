@@ -15,6 +15,7 @@ set(SOURCES
         src/easy/fibonacci_number.cpp
         src/easy/palindrome_number.cpp
         src/easy/same_tree.cpp
+        src/easy/plus_one.cpp
 )
 
 # Add executable target
@@ -32,6 +33,7 @@ set(TEST_SOURCES
         test/easy/fibonacci_number_test.cpp
         test/easy/palindrome_number_test.cpp
         test/easy/same_tree_test.cpp
+        test/easy/plus_one_test.cpp
 )
 
 Include(FetchContent)
