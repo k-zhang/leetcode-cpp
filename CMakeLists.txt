@@ -16,6 +16,7 @@ set(SOURCES
         src/easy/palindrome_number.cpp
         src/easy/same_tree.cpp
         src/easy/plus_one.cpp
+        src/easy/best_time_to_buy_sell_stock.cpp
 )
 
 # Add executable target
@@ -34,6 +35,7 @@ set(TEST_SOURCES
         test/easy/palindrome_number_test.cpp
         test/easy/same_tree_test.cpp
         test/easy/plus_one_test.cpp
+        test/easy/best_time_to_buy_sell_stock_test.cpp
 )
 
 Include(FetchContent)
