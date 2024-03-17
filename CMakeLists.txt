@@ -17,6 +17,7 @@ set(SOURCES
         src/easy/same_tree.cpp
         src/easy/plus_one.cpp
         src/easy/best_time_to_buy_sell_stock.cpp
+        src/easy/reshape_the_matrix.cpp
 )
 
 # Add executable target
@@ -36,6 +37,7 @@ set(TEST_SOURCES
         test/easy/same_tree_test.cpp
         test/easy/plus_one_test.cpp
         test/easy/best_time_to_buy_sell_stock_test.cpp
+        test/easy/reshape_the_matrix_test.cpp
 )
 
 Include(FetchContent)
